@@ -1,0 +1,396 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  max-width: 100%;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.logo{
+  margin: 0;
+}
+
+.logo img {
+    width: 75%;
+    max-width: 300px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo img {
+    overflow: hidden;
+}
+
+div, section, aside, footer {
+  //border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+
+header {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  background-color: #C3162A;
+}
+
+main {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 10rem;
+}
+
+ul {
+      list-style-type: none;
+      padding: 0;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+li {
+  padding-top: 1.5em;
+  color: #292929;
+}
+
+
+.hrs {
+  display: grid;
+  justify-content: center;
+  width: 95%;
+}
+
+.hours {
+  margin: 0 auto;
+  background-color: #252627;
+}
+
+@media screen and (max-width: 800px) {
+  .align {
+  padding-bottom: 4em;
+  }
+
+  .MenuView {
+    height: 100%;
+    margin: 23px 0;
+  }
+
+  .visit {
+    float: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .rowtwo {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .Restaurant {
+    width: 67%;
+  }
+
+}
+
+@media screen and (min-width: 801px) {
+  .hrs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rowtwo {
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+  }
+
+.specials {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.MenuView {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.Restaurant {
+  width: 70%;
+}
+
+.visit {
+  float: right;
+}
+}
+
+.hours li {
+  padding: 0;
+  color: #F7F7F2;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Restaurant {
+background-image: url('Restaurant.jpg');
+background-size: cover;
+position: relative;
+height: 35%;
+overflow: hidden;
+display: flex;
+text-align: center;
+margin: 0 auto;
+margin-top: 30px;
+box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .7);
+    background-position: center;
+}
+
+.align {
+text-align: center;
+margin: 0 auto;
+width: 70%;
+padding-top: 4em;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #252627;
+  font-family: 'Oswald', sans-serif;
+}
+
+.phone {
+  background: #C3162A;
+  margin: 0;
+  text-align: right;
+  font-size: 20px;
+  padding-right: 20px;
+  margin-bottom: -10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.phone img {
+  height: 20%;
+  max-height: 16px;
+  max-height: auto;
+  margin-bottom: -2px;
+  margin-right: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #F7F7F2;
+}
+
+a:visited {
+  //color: #F7F7F2;
+}
+
+.rowtwo {
+  width: 71.8%;
+  display: grid;
+  margin: 0 auto;
+}
+
+.specials {
+  background-image: url('Fish.jpg');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .7);
+  background-position: center;
+}
+
+.specials li {
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.SpecTitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.SpecList {
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+
+.MenuView {
+  background-image: url('Food.jpg');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .7);
+  background-position: center;
+}
+
+.used {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  font-size: 62px;
+  color: #252627;
+  font-weight: bold;
+}
+
+.MenuCent {
+  display: flex;
+	align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.SpecCent {
+  display: flex;
+	align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  background: #C3162A;
+  color: #F7F7F2;
+  height: 7rem;
+  padding: 0;
+  margin: 0;
+  align-items: right;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  text-align: right;
+}
+
+.visit {
+  color: #F7F7F2;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #F7F7F2;
+  outline: 3px solid #252627;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  background: #252627;
+}
+
+.FoodList {
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+
+.FoodSec {
+  text-align: center;
+}
+
+.FoodMenu {
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 1000px) {
+  .FoodMenu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.foodtable {
+width: 100%;
+text-align: left;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+border-collapse: collapse;
+}
+
+.foodtableS {
+width: 100%;
+text-align: left;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+margin-bottom: 35px;
+border-collapse: collapse;
+}
+
+.foodtable td {
+  padding-bottom: 12px;
+}
+
+.foodtableS td {
+  padding-bottom: 12px;
+}
+
+.StayRight {
+  text-align: right;
+}
+
+th, td, tr {
+  border-bottom: 1px solid #ddd;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+  margin-top: 0px;
+  padding-bottom: 12px;
+}
